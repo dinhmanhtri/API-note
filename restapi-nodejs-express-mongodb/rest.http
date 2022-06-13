@@ -1,0 +1,15 @@
+### Get a list of all user
+GET http://localhost:8080/v1/users
+
+### Create user
+POST http://localhost:8080/v1/users
+
+### Get a user
+
+GET http://localhost:8080/v1/users/id
+
+### Delete a user
+DELETE http://localhost:8080/v1/users/id
+
+### Update a user
+PATCH http://localhost:8080/v1/users/id
